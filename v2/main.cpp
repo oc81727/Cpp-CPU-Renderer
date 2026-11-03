@@ -1414,9 +1414,9 @@ int main()
 
     cout<<"starting!\n";
     Scenev3 scenev3;
-    for (int i = 0; i < 128; i++) {
+    for (int i = 0; i < 32; i++) {
         scenev3.addBox(randPos(), vec3(100, 100, 100), randColor());
-        // scenev3.addSphere(randPos(), 20, randColor());
+        scenev3.addSphere(randPos(), 20, randColor());
     }
     scenev3.buildBVH();
     cout<<scenev3.BVHNodes.size()<<", "<<scenev3.BVHRelations.size()<<"\n";

@@ -10,12 +10,18 @@
         "${workspaceFolder}/**",
         "C:/msys64/ucrt64/include",
         "C:/msys64/ucrt64/include/c++/15.2.0",
-        "C:/msys64/ucrt64/include/SFML"
+        "C:/msys64/ucrt64/include/SFML",
+        "C:/SFML",
+        "C:/SFML/include",
+        "C:/SFML/lib"
       ],
       "browse": {
         "path": [
           "C:/msys64/ucrt64/include",
-          "C:/msys64/ucrt64/include/SFML"
+          "C:/msys64/ucrt64/include/SFML",
+          "C:/SFML",
+        "C:/SFML/include",
+        "C:/SFML/lib"
         ]
       }
     }
